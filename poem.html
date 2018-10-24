@@ -59,6 +59,11 @@
 
     <script>
     (function(){
+        $("#clock-box").click(function() {
+            console.log("xiangyu");
+            location.href = "https://etherscan.io/tx/0x76b6ea68e95a085f9fcf61ec7c2cf49296c62fab2ebc3c20d25728081b013edb";
+        });
+
         var canvas = $('#canvas');
 		
         if (!canvas[0].getContext) {
